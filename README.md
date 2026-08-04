@@ -50,6 +50,6 @@ VITE_ANTHROPIC_API_KEY=your_key_here
 
 ## About
 
-These projects are built as part of a practical learning path into agentic AI development — starting from zero coding background and building real, usable tools. The focus is on AI that does meaningful work: extracting structured data from unstructured inputs, generating contextual guidance, and managing state across a user session.
+These projects are built as part of a practical learning path into agentic AI development — building real, usable tools. The focus is on AI that does meaningful work: extracting structured data from unstructured inputs, generating contextual guidance, and managing state across a user session.
 
 More projects coming.
