@@ -2,17 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { THEMES } from "./theme";
 import { LOCALES, makeT, categoryLabel, getInitialLang } from "./i18n";
 
-// -------------------------------------------------------------------
-// API KEY — replace with your Anthropic key when running locally.
-// For local dev, set VITE_ANTHROPIC_API_KEY in a .env file.
-// NEVER commit a real key to version control.
-//
-// NOTE: this still sends the key from the browser bundle, which is not
-// where it belongs. The fix is to inject the header in the Vite proxy
-// instead. Tracked as an open item — see SECURITY.md.
-// -------------------------------------------------------------------
-const ANTHROPIC_API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || '';
-
 // Category ids only. The display names live in the locale files, and
 // the German terms live in i18n.js.
 const CATEGORY_IDS = [
@@ -44,10 +33,7 @@ const STEPS_SYS = `You are a German bureaucracy expert. Return ONLY a JSON array
 const callClaude = async (messages, system) => {
   const res = await fetch("/api/claude", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      ...(ANTHROPIC_API_KEY && { "x-api-key": ANTHROPIC_API_KEY }),
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 1000, system, messages }),
   });
   const data = await res.json();
@@ -145,7 +131,8 @@ export default function App() {
         STEPS_SYS
       );
       addDoc({ ...form, nextSteps: parseJson(raw) });
-    } catch { addDoc({ ...form, nextSteps: [] }); }
+    } catch { setError(t('errors.stepsFailed')); }
+    setLoading(false);
   };
 
   const handlePasteExtract = async () => {

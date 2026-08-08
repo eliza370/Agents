@@ -46,7 +46,8 @@
     "noText": "Please paste some text.",
     "noFile": "Please select a file.",
     "extractFailed": "Could not extract. Please try again.",
-    "readFailed": "Could not read file. Please try again."
+    "readFailed": "Could not read file. Please try again.",
+    "stepsFailed": "Could not generate next steps. Please try again."
   },
 
   "filters": {

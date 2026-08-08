@@ -46,7 +46,8 @@
     "noText": "Lütfen metin yapıştırın.",
     "noFile": "Lütfen bir dosya seçin.",
     "extractFailed": "Bilgiler çıkarılamadı. Lütfen tekrar deneyin.",
-    "readFailed": "Dosya okunamadı. Lütfen tekrar deneyin."
+    "readFailed": "Dosya okunamadı. Lütfen tekrar deneyin.",
+    "stepsFailed": "Sonraki adımlar oluşturulamadı. Lütfen tekrar deneyin."
   },
 
   "filters": {

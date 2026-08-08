@@ -41,7 +41,7 @@ npm run dev
 Copy `.env.example` to `.env` and add your Anthropic API key:
 
 ```
-VITE_ANTHROPIC_API_KEY=your_key_here
+ANTHROPIC_API_KEY=your_key_here
 ```
 
 > **API calls:** The app routes requests to the Anthropic API through Vite's dev server proxy, which handles CORS automatically. As long as you're running `npm run dev` with a valid key in your `.env`, it will work out of the box.

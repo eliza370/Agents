@@ -46,7 +46,8 @@
     "noText": "Bitte fügen Sie Text ein.",
     "noFile": "Bitte wählen Sie eine Datei aus.",
     "extractFailed": "Auslesen nicht möglich. Bitte erneut versuchen.",
-    "readFailed": "Datei konnte nicht gelesen werden. Bitte erneut versuchen."
+    "readFailed": "Datei konnte nicht gelesen werden. Bitte erneut versuchen.",
+    "stepsFailed": "Nächste Schritte konnten nicht erstellt werden. Bitte erneut versuchen."
   },
 
   "filters": {
