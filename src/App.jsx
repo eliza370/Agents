@@ -1,13 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 
-// -------------------------------------------------------------------
-// API KEY — replace with your Anthropic key when running locally.
-// When deployed inside Claude.ai the key is injected automatically;
-// for local dev, set VITE_ANTHROPIC_API_KEY in a .env file.
-// NEVER commit a real key to version control.
-// -------------------------------------------------------------------
-const ANTHROPIC_API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY || '';
-
 const CATEGORIES = [
   { id: 'rental', label: 'Mietvertrag', en: 'Rental & Housing' },
   { id: 'registration', label: 'Anmeldung', en: 'City Registration' },
@@ -63,12 +55,9 @@ const EXTRACT_SYS = `You are a German bureaucracy document analyzer. Return ONLY
 const STEPS_SYS = `You are a German bureaucracy expert. Return ONLY a JSON array of 2-4 specific English next steps: ["Step 1","Step 2"]. No other text.`;
 
 const callClaude = async (messages, system) => {
-  const res = await fetch("/api/claude", {
+  const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      ...(ANTHROPIC_API_KEY && { "x-api-key": ANTHROPIC_API_KEY }),
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ model: "claude-sonnet-4-20250514", max_tokens: 1000, system, messages }),
   });
   const data = await res.json();
