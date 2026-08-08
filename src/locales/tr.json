@@ -1,0 +1,98 @@
+{
+  "meta": { "name": "Türkçe", "dateLocale": "tr-TR" },
+
+  "app": {
+    "subtitle": "Alman bürokrasi takipçisi",
+    "urgent": "acil",
+    "upcoming": "yaklaşan",
+    "total": "toplam",
+    "addDocument": "+ Belge ekle",
+    "toDark": "Koyu moda geç",
+    "toLight": "Açık moda geç",
+    "language": "Dil"
+  },
+
+  "add": {
+    "heading": "Belge ekle",
+    "methodManual": "Elle",
+    "methodPaste": "Metin yapıştır",
+    "methodUpload": "Dosya yükle",
+    "title": "Başlık",
+    "titlePlaceholder": "örn. Sağlık sigortası yenileme",
+    "category": "Kategori",
+    "deadline": "Son tarih (isteğe bağlı)",
+    "notes": "Notlar (isteğe bağlı)",
+    "notesPlaceholder": "İlgili ayrıntılar...",
+    "submit": "Belge ekle",
+    "submitting": "Sonraki adımlar oluşturuluyor...",
+    "cancel": "İptal",
+    "pasteLabel": "Belge metnini yapıştırın",
+    "pastePlaceholder": "Almanca mektubunuzdan, e-postanızdan veya belgenizden metin yapıştırın...",
+    "extract": "Bilgileri çıkar",
+    "extracting": "Analiz ediliyor...",
+    "uploadPrompt": "Yüklemek için tıklayın",
+    "uploadHint": "PDF veya görsel (JPG, PNG)",
+    "uploadChange": "Değiştirmek için tıklayın",
+    "reading": "Belge okunuyor...",
+    "extractedHeading": "Çıkarılan bilgiler",
+    "noneDetected": "Tespit edilmedi",
+    "nextSteps": "Sonraki adımlar",
+    "save": "✓ Belgeyi kaydet",
+    "tryAgain": "Tekrar dene"
+  },
+
+  "errors": {
+    "noTitle": "Lütfen bir başlık girin.",
+    "noText": "Lütfen metin yapıştırın.",
+    "noFile": "Lütfen bir dosya seçin.",
+    "extractFailed": "Bilgiler çıkarılamadı. Lütfen tekrar deneyin.",
+    "readFailed": "Dosya okunamadı. Lütfen tekrar deneyin."
+  },
+
+  "filters": {
+    "all": "Tümü",
+    "active": "Açık",
+    "expiring": "Süresi dolmak üzere",
+    "closed": "Kapatıldı"
+  },
+
+  "empty": {
+    "titleAll": "Henüz belge yok",
+    "titleFiltered": "Burada bir şey yok",
+    "bodyAll": "Başlamak için ilk belgenizi ekleyin.",
+    "bodyFiltered": "Hepsini görmek için „Tümü“ seçeneğine geçin."
+  },
+
+  "card": {
+    "noDeadline": "Son tarih yok",
+    "overdueBy": "{n} gün gecikti",
+    "dueToday": "Bugün son gün",
+    "daysLeft": "{n} gün kaldı",
+    "nextSteps": "Sonraki adımlar ({n})",
+    "markComplete": "✓ Tamamlandı olarak işaretle",
+    "reopen": "Yeniden aç",
+    "delete": "Sil"
+  },
+
+  "urgency": {
+    "overdue": "Gecikmiş",
+    "urgent": "Acil",
+    "upcoming": "Yaklaşıyor",
+    "active": "Açık",
+    "ongoing": "Devam ediyor",
+    "inactive": "Kapatıldı"
+  },
+
+  "categories": {
+    "rental": "Kira ve konut",
+    "registration": "Şehir kaydı",
+    "health": "Sağlık sigortası",
+    "tax": "Vergi dairesi",
+    "jobcenter": "İş merkezi",
+    "visa": "Vize ve oturum",
+    "insurance": "Sigorta",
+    "rundfunk": "Yayın katkı payı",
+    "pension": "Emeklilik sigortası",
+    "other": "Diğer"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": { "name": "Deutsch", "dateLocale": "de-DE" },
+
+  "app": {
+    "subtitle": "Behördenpost im Blick",
+    "urgent": "dringend",
+    "upcoming": "demnächst",
+    "total": "gesamt",
+    "addDocument": "+ Dokument hinzufügen",
+    "toDark": "Zum dunklen Modus wechseln",
+    "toLight": "Zum hellen Modus wechseln",
+    "language": "Sprache"
+  },
+
+  "add": {
+    "heading": "Dokument hinzufügen",
+    "methodManual": "Manuell",
+    "methodPaste": "Text einfügen",
+    "methodUpload": "Datei hochladen",
+    "title": "Titel",
+    "titlePlaceholder": "z. B. Verlängerung der Krankenversicherung",
+    "category": "Kategorie",
+    "deadline": "Frist (optional)",
+    "notes": "Notizen (optional)",
+    "notesPlaceholder": "Weitere Details...",
+    "submit": "Dokument hinzufügen",
+    "submitting": "Nächste Schritte werden erstellt...",
+    "cancel": "Abbrechen",
+    "pasteLabel": "Dokumenttext einfügen",
+    "pastePlaceholder": "Text aus Ihrem Brief, Ihrer E-Mail oder Ihrem Dokument einfügen...",
+    "extract": "Informationen auslesen",
+    "extracting": "Wird analysiert...",
+    "uploadPrompt": "Zum Hochladen klicken",
+    "uploadHint": "PDF oder Bild (JPG, PNG)",
+    "uploadChange": "Zum Ändern klicken",
+    "reading": "Dokument wird gelesen...",
+    "extractedHeading": "Ausgelesene Informationen",
+    "noneDetected": "Nicht erkannt",
+    "nextSteps": "Nächste Schritte",
+    "save": "✓ Dokument speichern",
+    "tryAgain": "Erneut versuchen"
+  },
+
+  "errors": {
+    "noTitle": "Bitte geben Sie einen Titel ein.",
+    "noText": "Bitte fügen Sie Text ein.",
+    "noFile": "Bitte wählen Sie eine Datei aus.",
+    "extractFailed": "Auslesen nicht möglich. Bitte erneut versuchen.",
+    "readFailed": "Datei konnte nicht gelesen werden. Bitte erneut versuchen."
+  },
+
+  "filters": {
+    "all": "Alle",
+    "active": "Offen",
+    "expiring": "Frist läuft ab",
+    "closed": "Erledigt"
+  },
+
+  "empty": {
+    "titleAll": "Noch keine Dokumente",
+    "titleFiltered": "Hier ist nichts",
+    "bodyAll": "Fügen Sie Ihr erstes Dokument hinzu.",
+    "bodyFiltered": "Wechseln Sie zu „Alle“, um alles zu sehen."
+  },
+
+  "card": {
+    "noDeadline": "Keine Frist",
+    "overdueBy": "{n} Tage überfällig",
+    "dueToday": "Heute fällig",
+    "daysLeft": "noch {n} Tage",
+    "nextSteps": "Nächste Schritte ({n})",
+    "markComplete": "✓ Als erledigt markieren",
+    "reopen": "Wieder öffnen",
+    "delete": "Löschen"
+  },
+
+  "urgency": {
+    "overdue": "Überfällig",
+    "urgent": "Dringend",
+    "upcoming": "Frist läuft ab",
+    "active": "Offen",
+    "ongoing": "Laufend",
+    "inactive": "Erledigt"
+  },
+
+  "categories": {
+    "rental": "Mietvertrag",
+    "registration": "Anmeldung",
+    "health": "Krankenversicherung",
+    "tax": "Finanzamt",
+    "jobcenter": "Jobcenter",
+    "visa": "Aufenthaltstitel",
+    "insurance": "Versicherung",
+    "rundfunk": "Rundfunkbeitrag",
+    "pension": "Rentenversicherung",
+    "other": "Sonstiges"
+  }
+}

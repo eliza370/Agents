@@ -1,0 +1,98 @@
+{
+  "meta": { "name": "English", "dateLocale": "en-GB" },
+
+  "app": {
+    "subtitle": "German bureaucracy tracker",
+    "urgent": "urgent",
+    "upcoming": "upcoming",
+    "total": "total",
+    "addDocument": "+ Add document",
+    "toDark": "Switch to dark mode",
+    "toLight": "Switch to light mode",
+    "language": "Language"
+  },
+
+  "add": {
+    "heading": "Add document",
+    "methodManual": "Manual",
+    "methodPaste": "Paste text",
+    "methodUpload": "Upload file",
+    "title": "Title",
+    "titlePlaceholder": "e.g. Health insurance renewal",
+    "category": "Category",
+    "deadline": "Deadline (optional)",
+    "notes": "Notes (optional)",
+    "notesPlaceholder": "Any relevant details...",
+    "submit": "Add document",
+    "submitting": "Generating next steps...",
+    "cancel": "Cancel",
+    "pasteLabel": "Paste document text",
+    "pastePlaceholder": "Paste text from your German letter, email, or document...",
+    "extract": "Extract information",
+    "extracting": "Analysing...",
+    "uploadPrompt": "Click to upload",
+    "uploadHint": "PDF or image (JPG, PNG)",
+    "uploadChange": "Click to change",
+    "reading": "Reading document...",
+    "extractedHeading": "Extracted information",
+    "noneDetected": "None detected",
+    "nextSteps": "Next steps",
+    "save": "✓ Save document",
+    "tryAgain": "Try again"
+  },
+
+  "errors": {
+    "noTitle": "Please enter a title.",
+    "noText": "Please paste some text.",
+    "noFile": "Please select a file.",
+    "extractFailed": "Could not extract. Please try again.",
+    "readFailed": "Could not read file. Please try again."
+  },
+
+  "filters": {
+    "all": "All",
+    "active": "Active",
+    "expiring": "Expiring soon",
+    "closed": "Closed"
+  },
+
+  "empty": {
+    "titleAll": "No documents yet",
+    "titleFiltered": "Nothing in this view",
+    "bodyAll": "Add your first document to get started.",
+    "bodyFiltered": "Switch to \"All\" to see everything."
+  },
+
+  "card": {
+    "noDeadline": "No deadline",
+    "overdueBy": "{n}d overdue",
+    "dueToday": "Due today",
+    "daysLeft": "{n}d left",
+    "nextSteps": "Next steps ({n})",
+    "markComplete": "✓ Mark complete",
+    "reopen": "Reopen",
+    "delete": "Delete"
+  },
+
+  "urgency": {
+    "overdue": "Overdue",
+    "urgent": "Urgent",
+    "upcoming": "Due soon",
+    "active": "Active",
+    "ongoing": "Ongoing",
+    "inactive": "Closed"
+  },
+
+  "categories": {
+    "rental": "Rental & Housing",
+    "registration": "City Registration",
+    "health": "Health Insurance",
+    "tax": "Tax & Finance",
+    "jobcenter": "Job Center",
+    "visa": "Visa & Residence",
+    "insurance": "Insurance",
+    "rundfunk": "Broadcasting Fee",
+    "pension": "Pension",
+    "other": "Other"
+  }
+}
